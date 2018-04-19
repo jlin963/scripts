@@ -61,9 +61,9 @@ oc login -u=admin -p=admin
   oc run pypy3 --image=pypy:3 --namespace=default
   oc run pypy2 --image=pypy:2 --namespace=default
   oc run pypyslim --image=pypy:slim --namespace=default
-  oc run crate:23 --image=crate:2.3 --namespace=default
-  oc run crate:22 --image=crate:2.2 --namespace=default
-  oc run crate:21 --image=crate:2.1 --namespace=default
+  oc run crate23 --image=crate:2.3 --namespace=default
+  oc run crate22 --image=crate:2.2 --namespace=default
+  oc run crate21 --image=crate:2.1 --namespace=default
   oc run gcc7 --image=gcc:7 --namespace=default
   oc run gcc64 --image=gcc:6.4 --namespace=default
   oc run gcc55 --image=gcc:5.5 --namespace=default
